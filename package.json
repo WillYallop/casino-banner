@@ -1,0 +1,16 @@
+{
+  "name": "casinobanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/casinoBanner.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src/casinoBanner.js --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "babel-preset-minify": "^0.5.1"
+  }
+}
