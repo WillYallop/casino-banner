@@ -1,16 +1,31 @@
 {
-  "name": "casinobanner",
+  "name": "casino-banner",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/casinoBanner.js",
+  "main": "src/script.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel src/casinoBanner.js --out-dir dist"
+    "build": "webpack --mode=production --node-env=production",
+    "dev": "webpack serve --mode=development"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0",
-    "babel-preset-minify": "^0.5.1"
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.39.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "functionalities.js": "^0.3.2"
   }
 }
