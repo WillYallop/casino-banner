@@ -1,3 +1,5 @@
+<img src="./screenshot.png" style="margin-bottom: 20px; width: 100%;">
+
 # Explainer
 
 - dist/index.html is the example HTML. You can change the video-url to the appropriate one.
