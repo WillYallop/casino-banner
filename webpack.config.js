@@ -44,7 +44,6 @@ module.exports = {
     port: 9000,
     open: true
   },
-  devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Development',
